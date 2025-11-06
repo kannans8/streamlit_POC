@@ -1,6 +1,6 @@
 import streamlit as st
 
-gradio_url = "https://ce0fd43838549f4a9b.gradio.live"
+gradio_url = "https://2fe477cc111f555252.gradio.live"
 st.components.v1.html(
     f"""
     <iframe src="{gradio_url}" 
