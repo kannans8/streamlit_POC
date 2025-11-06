@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+st.set_page_config(layout="wide")
 gradio_url = "https://f1e4ed93361006f676.gradio.live"
 st.components.v1.html(
     f"""
