@@ -10,5 +10,5 @@ st.components.v1.html(
             scrolling="yes">
     </iframe>
     """,
-    height=800,
+    height=800,  # initial container height in Streamlit
 )
