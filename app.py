@@ -1,6 +1,14 @@
 import streamlit as st
 
 gradio_url = "https://ce0fd43838549f4a9b.gradio.live"
-st.components.v1.iframe(gradio_url,     width=1800,  
-    height=800, 
-    scrolling=True )
+st.components.v1.html(
+    f"""
+    <iframe src="{gradio_url}" 
+            width="100%" 
+            height="800" 
+            style="border:none;" 
+            scrolling="yes">
+    </iframe>
+    """,
+    height=800,
+)
