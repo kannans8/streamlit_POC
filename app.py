@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 gradio_url = "https://2fe477cc111f555252.gradio.live"
-response = requests.get(gradio_url, timeout=timeout)
+response = requests.get(gradio_url, timeout= 200)
 if (response.status_code >= 200 and response.status_code < 400):
     
     try:
