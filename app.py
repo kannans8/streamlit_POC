@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-gradio_url = "https://2fe477cc111f555252.gradio.live"
+gradio_url = "https://af1e7458e4ba7b1a74.gradio.live"
 
 st.components.v1.html(
     f"""
