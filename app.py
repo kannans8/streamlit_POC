@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 st.set_page_config(layout="wide")
-gradio_url = "https://d8f785e4a6f8249882.gradio.live"
+gradio_url = "https://f9fe2e123b4a9f88bd.gradio.live/"
 st.components.v1.html(
     f"""
     <iframe src="{gradio_url}" 
