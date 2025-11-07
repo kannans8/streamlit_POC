@@ -8,7 +8,7 @@ def get_base64_of_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
     
-base64_img = get_base64_of_bin_file("/Picture1.png")
+base64_img = get_base64_of_bin_file("Picture1.png")
 
 st.markdown(
     """
