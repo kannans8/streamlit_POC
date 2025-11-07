@@ -3,6 +3,11 @@ import requests
 import base64
 st.set_page_config(layout="wide")
 
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+    
 base64_img = get_base64_of_bin_file("/Picture1.png")
 
 st.markdown(
