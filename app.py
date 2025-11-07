@@ -22,9 +22,7 @@ st.markdown(
 
     </style>
 
-    <div class="title">Crawler AI_V2</div>
-    <div style="position: fixed; bottom: 10px; left: 100px; color: white; font-size: 20px;">
-        Gemini API used
+
     </div>
     """,
     unsafe_allow_html=True
