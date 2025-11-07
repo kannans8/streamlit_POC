@@ -3,7 +3,7 @@ import requests
 import base64
 st.set_page_config(layout="wide")
 
-base64_img = get_base64_of_bin_file("Picture1.png")
+base64_img = get_base64_of_bin_file("/Picture1.png")
 
 st.markdown(
     """
