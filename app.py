@@ -31,7 +31,7 @@ st.markdown(
 
 
 
-gradio_url = "https://f9fe2e123b4a9f88bd.gradio.live/"
+gradio_url = "https://7184265b003947fbaa.gradio.live"
 st.components.v1.html(
     f"""
     <iframe src="{gradio_url}" 
